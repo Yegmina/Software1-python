@@ -8,7 +8,7 @@ line=line+str(randomvar)
 
 print(line)
 line=''
-i=0
+i=1
 while i<=4:
     randomvar = randint(0,6)
     line=line+str(randomvar)
