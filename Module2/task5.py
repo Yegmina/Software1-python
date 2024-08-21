@@ -13,8 +13,9 @@ grams = lots * 13.3
 kilograms = int(grams // 1000)
 grams = grams % 1000
 
-
-print(f"The weight in modern units: \n{kilograms} kilograms and {grams:.2f} grams")
-
+if talents>0 and pounds>0 and lots>0:
+    print(f"The weight in modern units: \n{kilograms} kilograms and {grams:.2f} grams")
+else:
+    print("talents, pounds and lots should be positive")
 
 
